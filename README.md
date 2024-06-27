@@ -49,5 +49,7 @@ This is a program based off #100DaysofPython - Day 15
   b. Once all resources have been deducted, tell the user “Here is your latte. Enjoy!”. If latte was their choice of drink.
 
 ## Additional Features built
-1. Simple user authentication for admins
-2. 
+1. Create a main screen
+2. Simple user authentication for admins
+3. Allowing admins to load resources into machine
+4. Allowing admins to collect coins
