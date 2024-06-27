@@ -16,8 +16,8 @@ function_options = ["report", "load resources", "collect coins"]
 
 def maintenance_screen():
     print("What would you like to do?")
-    for i in range(len(function_options)):
-        print(f"{i+1}. {function_options[i]}")
+    for i, option in enumerate(function_options):
+        print(f"{i+1}. {option}")
     user_input = int(input(">> "))
     return function_options[user_input-1]
 
